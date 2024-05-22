@@ -1,25 +1,21 @@
 ## Harry Potter Books
 
 <div align="center">
-   <img width="210"src="./assets/images/hp-logo.png">
+   <img width="310"src="./assets/images/hp-logo.png">
+   <img width="610"src="./assets/readme/sc1.png"> 
+   <img width="210"src="./assets/readme/sc2.png">
+
 </div>
 
-## Sobre o Curso
+## Créditos
 
-A Formação Devclub é a formação mais completa de programação que você já viu, uma vez que você aprende do zero ao avançado para em menos de 06 meses estar atuando como um programador full stack.
+Mais um Video do canal "DevClub | Programação" com o professor Rodolfo Mori. Aprendemos a estruturar o site com HTML, estilizar com CSS para um design moderno e responsivo, e adicionar animações dinâmicas com CSS e JavaScript para uma experiência de usuário envolvente.
 
-A Formação possui mais de 35 módulos e entre eles aulas completas de HTML, CSS, Javascript, Node, Banco de dados, React e muito mais!
-
-Sem contar com as aulas liberadas constantemente como potencializador do seu aprendizado.
+Cada passo será explicado em detalhes para garantir sua compreensão. 
 
 <div align="center" >
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AZ1drCVTDgs?si=ZqK1xzz1tXbv41AI&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-[![Youtube Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg) ](https://www.youtube.com/embed/AZ1drCVTDgs?si=ZqK1xzz1tXbv41AI&amp;controls=0)
-
-<iframe width="500" height="300" src="https://www.youtube.com/embed/AZ1drCVTDgs?si=ZqK1xzz1tXbv41AI&amp;controls=0" frameborder="1" allowfullscreen></iframe>
-
+[![Youtube Video](./assets/readme/ytimg.png)](https://www.youtube.com/embed/AZ1drCVTDgs?si=ZqK1xzz1tXbv41AI&amp;controls=0)
 
  </div>
 
