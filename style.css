@@ -409,7 +409,7 @@ section {
 
     .indicators {
       position: absolute;
-      top: 80%;
+      top: 110%;
       left: 35%;
       transform: translateX(-50%);
       height: 200px;
@@ -425,7 +425,7 @@ section {
       }
 
       & ul {
-        display: none;
+        display: relative;
         gap: 10px;
 
         & li {
@@ -538,7 +538,7 @@ section {
           }
 
           & h2 {
-            font-size: 4em;
+            font-size: 5em;
             line-height: 1em;
             font-family: 'League Gothic', sans-serif;
             margin-top: 10px;
@@ -571,24 +571,43 @@ section {
   }
 
   #arrows{
-    width: 60px;
+
     gap: 390px;
     margin-top: -190px;
+
+
+    width: 90vw;
+    position: absolute;
+    top: 90%;
+    left: 28%;
+    transform: translate(-25vw);
+
   }
 
 }
 
 @media (max-width: 520px) {
-    #arrows{
-        gap: 350px;
-        margin-top: -190px;
-        
-      }
+  #arrows{
+
+    gap: 390px;
+    margin-top: -190px;
+
+
+    width: 70vw;
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    transform: translate(-25vw);
+
+  }
       section{
         right: 20px;
       }
       #img{
-        margin-top: 115vw;
+        margin-top: 30vw;
+      }
+      .indicators{
+        margin-top: 140px;
       }
 }
 @media (max-width: 470px) {
@@ -598,7 +617,7 @@ section {
       }
       section {
         padding-top: 190px;
-        height: 80vh;
+        height: 130vw;
         position: relative;
         right: 30px;
     }
@@ -608,6 +627,48 @@ section {
 }
 @media (max-width: 470px) {
     #img{
-        margin-top: 190vw;
+        margin-top: 150vw;
+      }
+      .indicators{
+        margin-top: 240px;
       }
 }
+
+
+@media (max-width: 430px) {
+  section {
+    padding-top: 270px;
+    height: 130vw;
+    position: relative;
+    right: 5px;
+}
+  #img{
+    margin-top: 210vw;
+    }
+    .indicators{
+      margin-top: 330px;
+    }
+    #arrows{
+      gap: 330px;
+    }
+  }
+
+@media (max-width: 400px) {
+  section {
+    padding-top: 270px;
+    height: 130vw;
+    position: relative;
+    right: 5px;
+}
+  #img{
+      margin-top: 250vw;
+    }
+    .indicators{
+      margin-top: 330px;
+    }
+    #arrows{
+      gap: 295px;
+      padding-left: -140px;
+      margin-top: -150px; 
+    }
+  }
