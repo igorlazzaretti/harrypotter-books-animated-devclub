@@ -409,3 +409,13 @@ section {
 
 }
 }
+
+@media (max-width: 620px) {
+    header img{
+        width: 250px;
+    }
+
+}
+
+
+
