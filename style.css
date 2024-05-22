@@ -306,6 +306,13 @@ section {
   }
 }
 
+@media (max-width: 1450px) {
+.descripition {
+  width: 400px;
+}
+}
+
+
 @media (max-width: 1350px) {
   header {
     gap: 20px;
@@ -325,6 +332,16 @@ section {
     width: 400px;
   }
 }
+
+@media (max-width: 1150px) {
+  #img {
+    width: 70%;
+    transform: rotate(-20deg);
+  }
+}
+
+
+
 @media (max-width: 1060px) {
   nav {
     visibility: hidden;
@@ -343,12 +360,22 @@ section {
   }
 }
 
+@media (max-width: 990px) {
+  .descripition {
+    width: 300px;
+  }
+}
+
 @media (max-width: 830px) {
     header{
         background-color: var(--body-bg);
+
     }
   body {
-    height: 80vh;
+    height: 100vh;
+  }
+  section{
+    margin-top: 100px;
   }
 
   section {
