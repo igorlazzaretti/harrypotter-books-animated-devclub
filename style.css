@@ -419,34 +419,24 @@ section {
   .arrows {
     width: 100vw;
     position: absolute;
-    top: 10%;
+    top: 90%;
     left: 90%;
-    transform: translate(-95vw);
+    transform: translate(-25vw);
     display: flex;
     justify-content: space-between;
 
-    & button:nth-child(1) {
-      & img {
-        transform: scale(-1);
-      }
-    }
-
     & button {
       top: 60%;
-      width: 40px;
-      height: 40px;
+      width: 60px;
+      height: 60px;
       border-radius: 30%;
       border: none;
       cursor: pointer;
 
       & img {
-        width: 18px;
+        width: 30px;
         margin-top: 4px;
         cursor: pointer;
-      }
-
-      &:hover {
-        background-color: var(--color-2);
       }
     }
   }
@@ -467,7 +457,7 @@ section {
 
         & .book-img {
           position: absolute;
-          top: 110%;
+          top: 120%;
           transform: translateY(-60%);
           margin-left: 17vw;
           width: clamp(20px, 70vw, 260px);
@@ -540,4 +530,31 @@ section {
       }
     }
   }
+
+  #arrows{
+    width: 60px;
+    gap: 390px;
+    margin-top: -190px;
+  }
+
 }
+
+@media (max-width: 520px) {
+    #arrows{
+        gap: 350px;
+        margin-top: -190px;
+        
+      }
+}
+@media (max-width: 470px) {
+    #arrows{
+        gap: 280px;
+        margin-top: -150px; 
+      }
+      section {
+        padding-top: 200px;
+        height: 80vh;
+        position: relative;
+    
+}
+
