@@ -2,7 +2,7 @@
 
 <div align="center">
    <img width="310"src="./assets/images/hp-logo.png">
-   <img width="610"src="./assets/readme/sc1.png"> 
+   <img width="810"src="./assets/readme/sc1.png"> 
    <img width="210"src="./assets/readme/sc2.png">
 
 </div>
